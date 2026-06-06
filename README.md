@@ -54,35 +54,47 @@ In our above example suppose operating frequency is 9GHZ λ0=3.33CM.where c is v
 7.	convert g into dB in above exampleG dB =10LOG318=15.02DB
 8.	the same setup can be used for other frequency of operation.
 
+9.	The NIST Microwave Uncertainty Framework (MUF) is used to process all of the measurements. The MUF utilizes parallel sensitivity and Monte-Carlo analyses and enables us to capture and propagate the significant scattering parameters measurement uncertainties and statistical correlations between them. By identifying and modeling the physical error mechanisms in the calibration standards, we can determine the statistical correlations between both the scattering-parameters at a single frequency and uncertainties at different frequencies.
+
+The existing SOLT calibration process uses two different types of loads. If frequencies above 2 GHz are being used, a sliding load is used. The sliding load is not used because the fixed load is used below 2 GHz and above 2 GHz. For the new method, necessary because the sliding load was loads do not have a flat response across a broad frequency band. By measuring the response of the fixed load, any deviations from a flat response are accounted for and corrected. For the new technique, the fixed load is used across the entire frequency band.
+
+
+
+
 **BLOCK DIAGRAM:**
 
 <img width="638" height="177" alt="image" src="https://github.com/user-attachments/assets/0e3f554a-c54b-42a4-bc48-1c3b3dd5f5fc" />
 
 **TABULATION:** 
+![WhatsApp Image 2025-11-11 at 15 48 23_f6dac256](https://github.com/user-attachments/assets/6c3d194b-3b1e-45de-aa24-f1520ded9a19)
+
+
+
 
 **HORN ANTENNA** 
 
-Beam voltage	:
+Beam voltage	:300 V
 
-Beam current	 :
+Beam current	 :25mA
 
 **PARABOLICANTENNA**
 
-Beam voltage	:
+Beam voltage	:300 V
 
-Beam current	 :
+Beam current	 :25nA
 
-Repeller voltage :
+Repeller voltage :-150V
 
-	V1 : 
+	V1 : -150V
 
 **RESULT:**
 
 Thus the polar pattern and the gain of a waveguide horn antenna and parabolicantenna was measured and plotted.
 
-Beamwidth of horn antenna :
+Beamwidth of horn antenna : 22*
 
-Beamwidth of parabolic antenna:		
+Beamwidth of parabolic antenna:	7*	
 
+**CONCLUSION**
 
-
+A new technique has been described that was microwane Uncutainty Framework to establish au determined with well-defined tranceablity parth for soL7 calibrations In addition, measurments results Correlated uncutaints. Repeated parses through the procus Yeilded repeatable magnitude and phaSE is measured.
